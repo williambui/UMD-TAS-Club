@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0;
+  font-size: 1.8rem;
+  padding: 0;
+  font-family: 'Poppins', sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
+section.pink {
+  background-color: #ffa7a7;
+  color: black; }
+
+section.white {
+  background-color: white;
+  color: black; }
+
+section.padded {
+  padding-top: 8rem;
+  padding-bottom: 8rem; }
+
+section.hero {
+  background-image: url("img/animebg.jpg");
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30rem;
+  padding-bottom: 30rem; }
+  section.hero h1 {
+    font-size: 7rem;
+    font-weight: 800; }
+
+section.content .container .row, section.content .container-fluid .row {
+  padding-top: 3rem; }
+  section.content .container .row .border-white, section.content .container-fluid .row .border-white {
+    border: 0.1rem solid white; }
+  section.content .container .row .border-black, section.content .container-fluid .row .border-black {
+    border: 0.1rem solid black; }
+  section.content .container .row .column-pad, section.content .container-fluid .row .column-pad {
+    padding-top: 2rem; }
