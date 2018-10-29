@@ -10,6 +10,15 @@ body {
 h1, h2, h3, h4, h5, h6, p {
   margin: 0; }
 
+button {
+  background-color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: lightgray;
+}
+
 section.pink {
   background-color: #ffa7a7;
   color: black; }
@@ -23,8 +32,8 @@ section.padded {
   padding-bottom: 8rem; }
 
 section.hero {
-  background-image: url("img/animebg.jpg");
-  background-size:     cover;                      /* <------ */
+  background-color: #ffa7a7;
+  background-size:     cover;
   background-repeat:   no-repeat;
   background-position: center center;
   width: 100%;
@@ -34,6 +43,12 @@ section.hero {
   section.hero h1 {
     font-size: 7rem;
     font-weight: 800; }
+
+@media (min-width: 60rem) {
+    section.hero {
+      background-image: url("img/animebg.jpg");
+    }
+}
 
 section.content .container .row, section.content .container-fluid .row {
   padding-top: 3rem; }
